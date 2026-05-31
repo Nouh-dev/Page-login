@@ -1,4 +1,16 @@
 {% extends "base.html" %}
 {% block body %}
-    your account registed
+<form class="home-page" , action="/registed" method="post">
+        <h1>Your information</h1>
+        <input autocomplete="off" autofocus required name="user" placeholder="Username" type="text">
+        <input autocomplete="off" autofocus required name="password" placeholder="Password" type="text">
+        <select name="age" required>
+            <option disabled selected>choose your older</option>
+            <option> <10 </option>
+            <option> <20 </option>
+            <option> >30 </option>
+        </select>
+        <button type="submit">submit</button>
+        <p >Your account registed</p>
+    </form>
 {% endblock %}

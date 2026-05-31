@@ -35,3 +35,13 @@ body {
     margin: 40px 0 0 0 ;
 }
 
+.home-page p {
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 0 0 0 50px;
+}
+
